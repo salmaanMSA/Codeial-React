@@ -32,7 +32,5 @@ export const getFormBody = (params) => {
 
         formBody.push(encodedKey + '=' + encodedValue);
     }
-    console.log(formBody)
-
     return formBody.join('&');
 }
